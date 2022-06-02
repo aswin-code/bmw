@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    color: white;
+    font-family:bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+}
+.background{
+    margin: 0;
+    height:100%;
+    background-image: url(image/cq5dam.resized.img.1680.large.time1652964159399.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    display:flex;
+    
+    justify-content: space-around;
+     
+
+
+    
+}
+.headright{
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: normal;
+
+}
+i{
+    /* padding-left: 10px; */
+}
+
+.headleft{
+    width: 50vw;
+    height: 60px;
+    display: flex; 
+    justify-content: space-around;  
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 40px;
+    
+}
+.headright > i{
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.name:hover{
+    border-bottom: 3px solid ;
+    border-color: #257AFD;
+
+}
+hr {
+    width: 80vw;
+    color: #ffff;
+}
+.logo{
+    height: 50px;
+    margin-bottom: 2px;
+}
+.aside{
+    text-align: right;
+}
+.aside>p{
+    margin-right: 10vw;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.partial-text{
+    margin-left: 5vw;
+    font-weight: 100;
+}
+.partial-text>h2{
+    margin: 0;
+    font-family: roboto,sans-serif;
+    font-weight: 50;
+    font-size: 60px;
+}
+.partial-sub>.subtext{
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+
+}
+.subtext>h4{
+    margin: 0;
+}
+.partial-sub{
+    display: flex;
+}
+.sublogo>img{
+    width: 54px;
+    height: 30px;
+}
+.partial-text-spacing{
+    margin-top: 10px;
+}
+.firstpage-last{
+    margin-top: 10px;
+    
+    height: 30vh;
+}
+.firstpage-last>.know{
+    height: 48px;
+    width: 19vw;
+    background-color: #1860cc;
+    margin-left: 5vw;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+    
+
+}
+.know>a{
+    position: relative;
+    left: 25%;
+    top: 29%;
+}
+.firstpage-last>.book{
+    position: relative;
+    height: 48px;
+    width: 18vw;
+    margin-top: 10px;
+    margin-left: 5vw;
+    border: 3px solid white;
+}
+.book>a{
+    font-weight:700;
+    font-family: sans-serif;
+    position: relative;
+    top: 36%;
+    left: 25%;
+}
+.firstpage-last>div:hover{
+    opacity: .8;
+}
+.last{
+    display: flex;
+    margin: 0;
+    
+}
+.last>div{
+    color: black;
+    font-family: roboto;
+    font-size: 24px;
+
+}
+.leftsection{
+    margin: 10px 10px 10px 0px;
+    height: 300px;
+    width: 50vw;
+    
+    background-image: url(image/cq5dam.resized.img.1680.large.time1649761370751.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.info>.button{
+    height: 40px;
+    width: 38%;
+    border: 3px solid black;
+}
+.button>a{
+    position: relative;
+    color: #000;
+    margin-left: 25%;
+    top: 10%;
+    
+    
+}
+.rightsection{
+    margin:10px 0px 10px 0px;
+    width: 50vw;
+    height: 300px;
+    background-image: url(image/right.jpg);
+    background-size: cover;
+
+}
+.rightsection>div{
+    color: white;
+    margin: 25px;
+}
+.rightsection>.button{
+    height: 40px;
+    width: 38%;
+    border: 2px solid white;
+}
+
+.info{
+    margin: 30px;
+}
+.button:hover{
+    opacity: .6;
+}
+h2{
+    cursor: default;
+}
+footer{
+    margin-top: 90px;
+    width: 100%;
+    height: 350px;
+    background-color:rgba(187,187,187,0.6);
+    color: gray;
+}
+.social{
+    margin-top: 10px;
+}
+.spacing{
+    padding-top: 10px;
+    margin-left: 55vw;
+}
+.icon{
+    margin:30px 100px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.legal{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.contact>a{
+}
